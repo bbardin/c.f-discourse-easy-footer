@@ -58,7 +58,7 @@
         justify-content: center;
 
         i {
-          color: $secondary;
+          color: #ffffff;
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
@@ -73,6 +73,7 @@
     }
   }
   .footer-links {
+    color: #ffffff;
     flex: 1;
   }
   .list span {
@@ -124,6 +125,7 @@
       padding-bottom: 1em;
 
       .blurb {
+        color: #ffffff;
         display: flex;
         align-items: center;
       }

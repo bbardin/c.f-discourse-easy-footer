@@ -12,8 +12,9 @@
     padding: 2em 0 1em 0;
   }
   .first-box {
-    max-width: 20%;
+    max-width: 50%;
     .heading {
+      font-family:  'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif;
       font-size: $font-up-2;
       font-weight: bold;
       margin-bottom: 0.5em;
@@ -74,6 +75,7 @@
     flex: 1;
   }
   .list span {
+  	font-family:  'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif;
     font-weight: bold;
   }
   .footer-section-link-wrapper a {

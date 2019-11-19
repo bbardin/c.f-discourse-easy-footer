@@ -15,14 +15,14 @@
     max-width: 50%;
     .heading {
       font-family:  'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif;
-      font-transform: lowercase;
+      text-transform: lowercase;
       font-size: $font-up-2;
       font-weight: bold;
       margin-bottom: 0.5em;
       display: block;
     }
     .blurb {
-      color: $secondary-high;
+      color: #ffffff;
     }
   }
   .second-box {
@@ -52,6 +52,7 @@
       align-items: center;
       justify-content: flex-end;
       .social-link {
+        color: #ffffff;
         margin: 20px 10px;
         display: flex;
         align-items: center;
@@ -67,7 +68,7 @@
       }
     }
     .small-link {
-      color: $secondary-high;
+      color: #ffffff;
       margin: 0 0.25em;
       font-size: $font-down-2;
     }
@@ -78,7 +79,7 @@
   }
   .list span {
   	font-family:  'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif;
-  	font-transform: lowercase;
+  	text-transform: lowercase;
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
